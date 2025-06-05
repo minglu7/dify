@@ -1,4 +1,5 @@
 #!/bin/sh
+export PATH="/root/.nvm/versions/node/v22.12.0/bin:$PATH"
 # get the list of modified files
 files=$(git diff --cached --name-only)
 
